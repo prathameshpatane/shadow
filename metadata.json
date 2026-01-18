@@ -1,0 +1,7 @@
+{
+  "name": "AeroEstate Gold - Premium Residential Investment",
+  "description": "A high-end luxury residential property website featuring detailed investment insights, amenities, and a Gemini-powered real estate assistant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
