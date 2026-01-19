@@ -24,18 +24,18 @@ export const AMENITIES: Amenity[] = [
 export const INVESTMENT_FEATURES: InvestmentFeature[] = [
   {
     title: "Strategic Location",
-    description: "Located just 40 mins from the upcoming Navi Mumbai International Airport, making it a prime real estate hotspot.",
-    image: "https://picsum.photos/seed/airport1/1200/600"
+    description: "Experience real estate like never before with Shadow Infratech Pvt Ltd. Our commitment to innovation sets us apart as we incorporate cutting-edge technologies",
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=600&fit=crop"
   },
   {
     title: "Rapid Value Appreciation",
     description: "India's No.1 land investment destination with consistent year-on-year growth in property valuation.",
-    image: "https://picsum.photos/seed/val1/1200/600"
+    image: "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1200&h=600&fit=crop"
   },
   {
     title: "Infrastructure Growth",
     description: "Connected by major highways and the upcoming industrial corridors of Maharashtra.",
-    image: "https://picsum.photos/seed/infra1/1200/600"
+    image: "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1200&h=600&fit=crop"
   }
 ];
 

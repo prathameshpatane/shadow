@@ -9,39 +9,47 @@ const Hero: React.FC = () => {
         <div className="space-y-8">
           <div className="space-y-4">
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-              AeroEstate Gold
+              Shadow Infratech Pvt Ltd.
             </h1>
             <div className="flex items-center gap-2 text-gray-400">
               <MapPin size={18} className="text-gold" />
-              <span>Khopoli, Maharashtra</span>
+              <span>Maharashtra</span>
             </div>
             <p className="text-gray-400 max-w-md leading-relaxed">
-              A 50-acre landmark plotted development, 40 mins from the Navi Mumbai International Airport at India's no.1 land investment destination - Khopoli.
+             Discover premium NA plots in Pune and envision your future with us. At Shadow Infratech, we are more than just builders; we create lifestyles that align with your dreams.
             </p>
           </div>
 
           <div className="space-y-1">
             <p className="text-sm text-gray-400">Starting at</p>
             <div className="flex items-baseline gap-2">
-              <span className="text-4xl font-bold text-white">₹ 64.99 Lakh +*</span>
+              <span className="text-3xl font-bold text-white">Affordable Rates</span>
             </div>
             <p className="text-xs text-gray-500">117 SQ.METERS (1,259 SQ.FT)</p>
           </div>
 
-          <button 
-            onClick={() => document.getElementById('enquiry-form')?.scrollIntoView({ behavior: 'smooth' })}
-            className="gold-gradient text-luxury-purple px-10 py-4 rounded-full font-bold flex items-center gap-3 hover:scale-105 transition-transform shadow-lg shadow-gold/20"
-          >
-            ENQUIRE NOW <ArrowRight size={20} />
-          </button>
+          <div className="flex gap-4">
+            <button 
+              onClick={() => document.getElementById('enquiry-form')?.scrollIntoView({ behavior: 'smooth' })}
+              className="gold-gradient text-luxury-purple px-10 py-4 rounded-full font-bold flex items-center gap-3 hover:scale-105 transition-transform shadow-lg shadow-gold/20"
+            >
+              ENQUIRE NOW <ArrowRight size={20} />
+            </button>
+            <button 
+              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+              className="border border-gold text-gold px-10 py-4 rounded-full font-bold hover:bg-gold hover:text-luxury-purple transition-all"
+            >
+              VIEW PROJECTS
+            </button>
+          </div>
         </div>
 
         <div className="relative group">
           <div className="absolute -inset-1 bg-gold/20 blur-xl opacity-50 group-hover:opacity-100 transition duration-1000"></div>
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10">
             <img 
-              src="https://picsum.photos/seed/aerohero/1200/800" 
-              alt="AeroEstate Render" 
+              src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&h=800&fit=crop" 
+              alt="Luxury House" 
               className="w-full h-auto object-cover transform transition duration-700 group-hover:scale-105"
             />
             <div className="absolute top-6 left-6 gold-gradient px-4 py-2 rounded-lg text-luxury-purple font-bold text-xs">
