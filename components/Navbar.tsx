@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
     <nav className="fixed top-0 left-0 w-full z-50 bg-luxury-purple/90 backdrop-blur-md border-b border-white/10 px-6 py-4 flex justify-between items-center">
       <div className="flex items-center gap-3">
         <img 
-          src="./images/logo_plot.png" 
+          src="/logo_plot.png" 
           alt="Shadow Infratech Pvt Ltd." 
           className="h-12 object-contain"
         />

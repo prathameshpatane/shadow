@@ -5,17 +5,17 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const Amenities: React.FC = () => {
   const projectImages = [
     {
-      src: './images/NA-Plots-for-Sale-in-Pune-NA-Bungalow-Plots-01-19-2026_04_42_PM.png',
+      src: '/NA-Plots-for-Sale-in-Pune-NA-Bungalow-Plots-01-19-2026_04_42_PM.png',
       title: 'Premium NA Plots',
       description: 'Exclusive residential plots in prime Pune locations'
     },
     {
-      src: './images/NA-Plots-for-Sale-in-Pune-NA-Bungalow-Plots-01-19-2026_04_46_PM.png',
+      src: '/NA-Plots-for-Sale-in-Pune-NA-Bungalow-Plots-01-19-2026_04_46_PM.png',
       title: 'Luxury Development',
       description: 'Modern infrastructure with world-class amenities'
     },
     {
-      src: './images/NA-Plots-for-Sale-in-Pune-NA-Bungalow-Plots-01-19-2026_04_46_PM (1).png',
+      src: '/NA-Plots-for-Sale-in-Pune-NA-Bungalow-Plots-01-19-2026_04_46_PM (1).png',
       title: 'Future Ready Plots',
       description: 'Investment-ready plots with excellent connectivity'
     }
